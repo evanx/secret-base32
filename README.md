@@ -53,6 +53,6 @@ https://github.com/evanx/secret-base56
 
 Base56 is worse for hand-written backups since some letters have similar shapes in lowercase e.g. c, s, u, v
 
-However for ephemeral secret URLs i.e. hand-written backups are not useful, then base56 is better as shorter strings can encode larger numbers.
+However for ephemeral secret URLs where hand-written backups are not useful, then base56 is better as shorter strings can encode larger numbers.
 
 
