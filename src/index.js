@@ -12,3 +12,4 @@ if (process.env.lowercase) {
    console.log(string.toLowerCase());
 } else {
    console.log(string);
+}
