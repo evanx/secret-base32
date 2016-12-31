@@ -45,3 +45,14 @@ which outputs length `40` token e.g. `ft8wg53dtllreznb4ld8t27epmn9n49t9htjf3w5`
 
 You can then use this for a secret URL e.g. for a Telegram Bot webhook, or some other purpose.
 
+## Related 
+
+See the following related project which is case-sensitive base56.
+
+https://github.com/evanx/secret-base56
+
+Base56 is worse for hand-written backups since some letters have similar shapes in lowercase e.g. c, s, u, v
+
+However for ephemeral secret URLs i.e. hand-written backups are not useful, then base56 is better as shorter strings can encode larger numbers.
+
+
