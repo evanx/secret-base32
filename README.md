@@ -35,13 +35,13 @@ where we tag the image so we can run by tag name:
 ```
 docker run -t secret-base32:test 
 ```
-which gives random output e.g. ``
+which gives random output e.g. `N2ZCRDNT5KQCN9R7`
 
 Use `length` envar to change from default `16`
 ```
-docker run -e length=40 secret-base32:test
+docker run -e length=40 lowercase=true secret-base32:test
 ```
-which outputs length `40` token e.g. ``
+which outputs length `40` token e.g. `ft8wg53dtllreznb4ld8t27epmn9n49t9htjf3w5`
 
 You can then use this for a secret URL e.g. for a Telegram Bot webhook, or some other purpose.
 
